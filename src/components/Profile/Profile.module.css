@@ -1,0 +1,83 @@
+.profile {
+    max-width: 90%;
+    width: 500px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profileItems {
+    text-align: center;
+}
+
+.images {
+    width: 250px;
+    border-radius: 50%;
+    background-color: var(--grey-background);
+    transition: transform 0.3s ease;
+    margin-bottom: 25px;
+}
+
+.images:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    color: var(--black-color);
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.subTitle {
+    color: var(--grey-color);
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.profileSubtitle{
+    text-align: center;
+     color: var(--grey-color);
+     font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.followers {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    border-top: 2px solid var(--border-color);
+    background-color: var(--grey);
+    color: var(--title-grey);
+    border-radius: 0 0 10px 10px;
+}
+
+.followers li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.followers li:first-child {
+    border-right: 2px solid var(--border-color);
+}
+
+.followers li:last-child {
+    border-left: 2px solid var(--border-color);
+    padding-left: 55px;
+}
+
+.followers span:last-child {
+    color: var(--black-color);
+    font-weight: bold;
+    font-size: 25px;
+}
